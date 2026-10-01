@@ -47,7 +47,7 @@ This directory contains all GitHub-specific configurations for the Cafe Ordering
 The `CODEOWNERS` file ensures critical code is reviewed by the right people.
 
 **Current configuration:**
-- **@Coup-DeFoudre** - Required reviewer for all changes
+- **@mayankpawar24** - Required reviewer for all changes
 - Specific ownership for:
   - Database schema (`/prisma/**`)
   - API routes (`/src/app/api/**`)
@@ -121,7 +121,7 @@ The labeler automatically applies these labels:
 5. **Wait for automated checks and approval:**
    - GitHub Actions will run automatically
    - Fix any failures
-   - Wait for @Coup-DeFoudre to review and approve
+   - Wait for @mayankpawar24 to review and approve
 
 6. **Merge after approval:**
    - Only possible after approval + passing checks
@@ -172,4 +172,4 @@ If workflows fail or you encounter issues:
 1. Check workflow logs in GitHub Actions tab
 2. Review [Troubleshooting](../GITHUB_SETUP.md#troubleshooting) section
 3. Verify branch protection settings
-4. Contact @Coup-DeFoudre for assistance
+4. Contact @mayankpawar24 for assistance

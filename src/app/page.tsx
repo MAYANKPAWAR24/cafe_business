@@ -85,7 +85,7 @@ export default async function Home() {
     if (isDbError) {
       const demoCafe = {
         id: 'demo-cafe',
-        name: 'Bean & Bloom',
+        name: 'Cafe Ordering System',
         phone: null,
         email: null,
         address: '1224 Main Street, Anytown, USA',
@@ -93,8 +93,8 @@ export default async function Home() {
         socialLinks: null,
         logo: null,
         bannerImage: null,
-        tagline: 'Fresh Brews. Cozy Moments. Blooming Flavors.',
-        description: 'At Bean & Bloom Cafe, every cup tells a story. We blend rich coffee beans with blooming natural flavors to create a warm, relaxing cafe experience.',
+        tagline: 'Fresh Brews. Cozy Moments. Great Taste.',
+        description: 'Browse the menu, order your favourites and track your order in real time. A cafe ordering system built with Next.js and Prisma.',
         settings: {
           onlinePaymentEnabled: false
         }

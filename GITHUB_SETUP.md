@@ -18,8 +18,7 @@ Before setting up branch protection, ensure:
 
 - ✅ You have **Admin** access to the GitHub repository
 - ✅ Repository has at least one commit on the `master` branch
-- ✅ Team member `@Coup-DeFoudre` has access to the repository
-- ✅ All team members have been added as collaborators
+- ✅ Repository owner `@mayankpawar24` has admin access to the repository
 
 ---
 
@@ -114,7 +113,7 @@ We've created the following GitHub Actions workflows:
 ### CODEOWNERS File
 
 The `.github/CODEOWNERS` file ensures:
-- All PRs require approval from **@Coup-DeFoudre**
+- All PRs require approval from **@mayankpawar24**
 - Special attention for critical files (database, API, config)
 
 ### PR Template
@@ -162,7 +161,7 @@ New pull requests will automatically use the template from `.github/pull_request
 
 5. **Test Approval Process:**
    - Try to merge without approval (should be blocked)
-   - Request review from @Coup-DeFoudre
+   - Request review from @mayankpawar24
    - After approval, merge should be allowed
 
 ### Test 2: Verify Failed Checks Block Merge
@@ -233,7 +232,7 @@ New pull requests will automatically use the template from `.github/pull_request
    - Fix any issues if checks fail
 
 6. **Request Review:**
-   - GitHub will automatically request review from @Coup-DeFoudre
+   - GitHub will automatically request review from @mayankpawar24
    - Wait for approval
 
 7. **Merge:**
@@ -256,7 +255,7 @@ New pull requests will automatically use the template from `.github/pull_request
 
 **Possible causes:**
 - File must be in `.github/CODEOWNERS` (exact path)
-- User @Coup-DeFoudre must have write access to repository
+- User @mayankpawar24 must have write access to repository
 - "Require review from Code Owners" must be enabled in branch protection
 
 **Solution:**
@@ -330,7 +329,7 @@ After completing setup, verify:
 - [ ] Require review from Code Owners is enabled
 - [ ] Require status checks is enabled
 - [ ] Status check "Validate Pull Request" is added
-- [ ] @Coup-DeFoudre is added as repository collaborator
+- [ ] @mayankpawar24 is added as repository collaborator
 - [ ] Test PR created and workflows run successfully
 - [ ] Test PR shows auto-applied labels
 - [ ] Test PR requires approval before merge
